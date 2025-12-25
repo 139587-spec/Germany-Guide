@@ -11,8 +11,8 @@
 <body>
     <div class="navbar">
         <div class="item1"><a href="index.html">Home</a></div>
-        <div class="item2"><a href="destinationattraction.html"></a></div>
-        <div class="item3"><a href="travelguide.html"></a></div>
+        <div class="item2"><a href="destinationattraction.html">Destination Attraction</a></div>
+        <div class="item3"><a href="travelguide.html">Travel Guide</a></div>
     </div>
 
     <div class="content">
@@ -59,18 +59,5 @@
     <img src="https://media.cntraveler.com/photos/5b914e80d5806340ca438db1/16:9/w_1920,c_limit/BrandenburgGate_2018_GettyImages-549093677.jpg" width="400px" alt="Brandenburg Gate">
     <img src="https://www.historyhit.com/app/uploads/bis-images/5150537/Cologne-Cathedral-788x537.jpg" width="400px" alt="Cologne Cathedral">
     </div>
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll("a").forEach(link => {
-        link.onclick = e => {
-            e.preventDefault();
-            document.body.classList.add("fade-out");
-            setTimeout(() => {
-                window.location = link.href;
-            }, 400);
-        };
-    });
-});
-</script>
 </body>
 </html>

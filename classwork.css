@@ -43,7 +43,7 @@ h1 + p {
     height:100%;
     width:60px;
     display:grid;
-    grid-template-rows:60px 60px 60px;
+    grid-template-rows:60px 60px;
     transition: left 1s ease;
     padding-top: 30px;
     text-align: center;
