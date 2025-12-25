@@ -1,0 +1,176 @@
+body { 
+    font-family: "Poppins", sans-serif;
+    background-color:#FFFDD0;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    text-align: center;
+    opacity: 0;
+    animation: pageFadeIn 0.8 ease forwards;
+}
+
+body.fade-out {
+    animation: pageFadeOut 0.5s ease forwards;
+}
+
+.content {
+    margin: 20px auto;
+    padding:20px;
+    max-width:900px;
+    text-align: center;
+}
+
+.content p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.attraction > ul > li {
+    margin-left: 20px;
+}
+
+h1 + p {
+    margin-top:10px;
+    font-style:italic;
+}
+
+.navbar {
+    background-color: gold;
+    border:4px solid gold;
+    position:fixed;
+    top:0; 
+    left:-50px;
+    height:100%;
+    width:60px;
+    display:grid;
+    grid-template-rows:60px 60px 60px;
+    transition: left 1s ease;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.item1 {
+    background-color:yellow;
+    border:4px solid gold;
+    text-align:center;
+    grid-row-start:1;
+    grid-row-end:2;
+}
+
+.item2 {
+    background-color:red;
+    border:4px solid #C41E3A;
+    text-align:center;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+
+.item3 {
+    background-color:black;
+    border:4px solid #36454F;
+    text-align:center;
+    grid-row-start:3;
+    grid-row-end:4;
+    color: white;
+}
+
+.item3 a {
+    color: white;
+}
+
+.navbar:hover {
+    left:0;
+}
+
+.attraction {
+    width:400px;
+    text-align: left;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #003d40;
+    border-bottom: 3px solid #00bfa6;
+    padding-bottom: 6px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #00796b;
+    margin-top: 40px;
+    font-size: 26px;
+}
+
+h3 {
+    color: #1b5e20;
+    font-size: 20px;
+}
+
+.content img {
+    display: block;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 80%;
+    height: auto;
+    border: 2px solid #aaa;
+}
+
+.attractions-image {
+    text-align: center;
+}
+
+.attractions-images img {
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px;
+    width: 250px;
+    height: auto;
+    border: 2px solid #aaa;
+}
+
+
+iframe {
+    width: 100%;
+    height: 420px;
+    border:3px solid #056f60;
+    border-radius:8px;
+}
+
+h1::after {
+    content: "✈️";
+    display: inline-block;
+    margin-left:8px;
+}
+
+@keyframes fadein {
+    from {opacity: 0; }
+    to {opacity: 1; }
+}
+
+img {
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+    animation: fadeIn 3s;
+}
+
+@media (max-width: 780px) {
+img, iframe {
+    width: 95%;
+    height: auto;
+}
+}
+
+@keyframes pageFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes pageFadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
