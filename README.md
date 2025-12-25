@@ -24,4 +24,7 @@ I had so much fun making this project and learned many valuable skills while I w
 *No additional server setup is required, as the website runs entirely in the browser.
 
 <strong>With much love - Avantika Satheesh</strong>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 647bfaa12d43c8b20c40280fcc4a94f53f17485e
