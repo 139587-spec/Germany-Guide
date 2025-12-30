@@ -1,4 +1,4 @@
-This is a simple yet effective tour guide website of the Germany. It has many ammenties that allow you to learn a lot about the country or if you are traveling hter, you can gain some knowledge about the tourist and also wha tto expect when traveling there.
+This is a simple yet effective tour guide website of the Germany. It has many ammenties that allow you to learn a lot about the country or if you are traveling there, you can gain some knowledge about the tourist and also what to expect when traveling there.
 
 This is a project that I make with predominantly HTML and CSS, but it does include various pages such as a travel guide, options for attraction to visit, and a main page to learn about Germany and its culture. I also included a navigation bar which allows you to move swiftly between pages. 
 
